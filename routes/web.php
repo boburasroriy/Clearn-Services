@@ -19,8 +19,11 @@ Route::get('service', [\App\Http\Controllers\PageController::class, 'service'])-
 Route::get('projects' , [\App\Http\Controllers\PageController::class, 'projects'])->name('projects');
 Route::get('contact', [\App\Http\Controllers\PageController::class, 'contact'])->name('contact');
 
-
 Route::get('LatestBlogs', [\App\Http\Controllers\PostController::class, 'index' ])->name('LatestBlogs');
-Route::get('blogDetails', [\App\Http\Controllers\PostController::class, 'details' ])->name('BlogsDetail');
+Route::get('show', [\App\Http\Controllers\PostController::class, 'show' ])->name('show');
+Route::get('create', [\App\Http\Controllers\PostController::class, 'create'])->name('create');
+Route::get('edit', [\App\Http\Controllers\PostController::class, 'edit'])->name('edit');
 
-//Route::resource('post', [\App\Http\Controllers\PostController::class]);
+
+Route::resource('posts', \App\Http\Controllers\PostController::class);
+//Route::resource('posts', [\App\Http\Controllers\PostController::class]);

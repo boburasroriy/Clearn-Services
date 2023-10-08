@@ -11,7 +11,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="Image">
+                <img class="img-fluid" src="/img/carousel-1.jpg" alt="Image">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="p-5" style="width: 100%; max-width: 900px;">
                         <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="Image">
+                <img class="img-fluid" src="/img/carousel-2.jpg" alt="Image">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="p-5" style="width: 100%; max-width: 900px;">
                         <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="Image">
+                <img class="img-fluid" src="/img/carousel-3.jpg" alt="Image">
                 <div class="carousel-caption d-flex align-items-center justify-content-center">
                     <div class="p-5" style="width: 100%; max-width: 900px;">
                         <h5 class="text-primary text-uppercase mb-md-3">Cleaning Services</h5>
@@ -148,14 +148,14 @@
                             <i class="fa fa-2x fa-hotel"></i>
                         </div>
                         <h5 class="font-weight-bold mb-4 px-4">Home Cleaning</h5>
-                        <img src="img/blog-1.jpg" alt="">
+                        <img src="/img/blog-1.jpg" alt="">
                     </div>
                     <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
                         <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
                             <i class="fa fa-2x fa-city"></i>
                         </div>
                         <h5 class="font-weight-bold mb-4 px-4">Window Cleaning</h5>
-                        <img src="img/blog-3.jpg" alt="">
+                        <img src="/img/blog-3.jpg" alt="">
                     </div>
                     <div class="d-flex flex-column align-items-center text-center bg-white rounded overflow-hidden pt-4">
                         <div class="icon-box bg-light text-secondary shadow mt-2 mb-4">
@@ -344,7 +344,7 @@
                     <div class="team d-flex flex-column text-center rounded overflow-hidden">
                         <div class="position-relative">
                             <div class="team-img">
-                                <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="/img/team-1.jpg" alt="">
                             </div>
                             <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -360,7 +360,7 @@
                     <div class="team d-flex flex-column text-center rounded overflow-hidden">
                         <div class="position-relative">
                             <div class="team-img">
-                                <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="/img/team-2.jpg" alt="">
                             </div>
                             <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -376,7 +376,7 @@
                     <div class="team d-flex flex-column text-center rounded overflow-hidden">
                         <div class="position-relative">
                             <div class="team-img">
-                                <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="/img/team-3.jpg" alt="">
                             </div>
                             <div class="team-social d-flex flex-column align-items-center justify-content-center bg-primary">
                                 <a class="btn btn-secondary btn-social mb-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -423,7 +423,7 @@
                 <div class="owl-carousel testimonial-carousel position-relative">
                     <div class="d-flex flex-column text-white">
                         <div class="d-flex align-items-center mb-3">
-                            <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                            <img class="img-fluid" src="/img/testimonial-1.jpg" alt="">
                             <div class="ml-3">
                                 <h5 class="text-primary">Client Name</h5>
                                 <i>Profession</i>

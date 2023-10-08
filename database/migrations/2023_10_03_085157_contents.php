@@ -11,7 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        schema::create('contents', function (Blueprint $table){
+            $table ->id();
+            $table ->short_content();
+            $table ->content();
+
+        });
     }
 
     /**

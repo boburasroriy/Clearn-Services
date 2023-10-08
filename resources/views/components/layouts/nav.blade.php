@@ -15,11 +15,11 @@
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                 <div class="dropdown-menu rounded-0 m-0">
                     <a href="{{ route('LatestBlogs')  }} " class="dropdown-item">Latest Blog</a>
-                    <a href="{{ route('BlogsDetail')  }} " class="dropdown-item">Blog Detail</a>
+{{--                    <a href="{{ route('show')  }} " class="dropdown-item">Blog Detail</a>--}}
                 </div>
             </div>
             <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
         </div>
-        <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Get A Quote</a>
+        <a href="{{ route('create')}}" class="btn btn-primary mr-3 d-none d-lg-block">Create a post</a>
     </div>
 </nav>
